@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Animation</title>
+	<style>
+	html, body {
+		margin: 0;
+		padding: 0;
+		height: 100%;
+		width: 100%;
+		display: block;
+		position: relative;
+	}
+	#canvas {
+		display: block;
+		border: 1px solid rgb(200,200,200);
+		transform: translate(-50%, -50%);
+		top: 50%;
+		left: 50%;
+		position: absolute;
+	}
+	.square {
+		background-color: orange;
+		height: 25px;
+		width: 25px;
+		position: absolute;
+	}
+	</style>
+</head>
+<body>
+	<canvas id="canvas"></canvas>
+	<script type="text/javascript" src="animation.bundle.js"></script>
+</body>
+</html>

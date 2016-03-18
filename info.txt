@@ -1,0 +1,5 @@
+Game Fundamentals
+
+With Every Loop: 
+	Do Logic, Get State
+	Draw based on that state
